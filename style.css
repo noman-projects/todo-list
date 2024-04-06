@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Condensed&family=Source+Sans+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pacifico', cursive
+}
+body{
+    background: rgb(251, 222, 55)  ;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+.list-box{
+    width: 700px;
+    height: auto;
+    background: rgb(238, 238, 238);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgb(0,0,0,0.5);
+}
+.list-box h1{
+    text-align: center;
+}
+.input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.list-box input{
+    width: 95%;
+    padding: 12px 5px;
+    border: 0;
+    border-radius: 5px;
+    border-bottom:3px solid black;
+    align-content: center;
+    background: rgb(238, 238, 238);
+    outline: none;
+    font-size: 20px;
+    padding-bottom: 0;
+    padding-left: 25px;
+}
+.input i{
+    position: absolute;
+    cursor: pointer;
+    font-size: 2rem;
+    bottom: 0;
+    left: 0;
+    color: rgb(65, 65, 65);
+}
+#groceryItems{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 75%;
+    font-size: 1.5rem;
+}
+#groceryItems h2{
+    cursor: pointer;
+}
